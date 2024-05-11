@@ -38,6 +38,16 @@ body {
   }
 }
 
+@media (min-width: 1250px) {
+  .btn-index{
+    font-size: 30px;
+  }
+  .logo img{
+    width: 150px;
+  }
+}
+
+
 .session{
   grid-column: 2/3;
   justify-content: center;
@@ -487,7 +497,10 @@ a.btndroite{
   display: flex;
   align-items: center;
   padding: 25px;
-  justify-content:center
+  justify-content:center;
+  flex-direction: column;
+  gap:10%
+
 
 }
 

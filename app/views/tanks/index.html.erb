@@ -36,4 +36,5 @@
 <%= form_with model: [ Tank.new] do |f| %>
 <%= f.submit "Creer mon aquarium", class: "btn-index "%>
 <% end %>
+  <%= button_to "logout", destroy_user_session_path, method: :delete, class:"btn-index"  %>
 </div>
